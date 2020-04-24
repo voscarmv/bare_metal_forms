@@ -26,20 +26,25 @@
 <% end %>
 -->
 
+<ul>
+<% @user.errors.full_messages.each { |m| %>
+  <li>
+  <%= m %>
+  </li>
+<% } %>
+</ul>
 <%= form_for @user do |f| %>
-  <p>
   <%= f.label "Your username here: " %>
+  <br>
   <%= f.text_field :username, placeholder: "username123" %>
-  </p>
-  <p>
+  <br>
   <%= f.label "Your e-mail: " %>
+  <br>
   <%= f.email_field :email, placeholder: "user@mail.com" %>
-  </p>
-  <p>
+  <br>
   <%= f.label "Password: " %>
+  <br>
   <%= f.password_field :password %>
-  </p>
-  <p>
+  <br>
   <%= f.submit "Sign up!" %>  
-  </p>
 <% end %>
