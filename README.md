@@ -9,7 +9,7 @@ Follow the installation instructions [for Ruby](https://www.theodinproject.com/c
 
 ## Live Demo
 
-Check out the live demo [here](https://lit-earth-21239.herokuapp.com/).
+Check out the live demo [here](https://lit-earth-21239.herokuapp.com/users/new).
 
 ## Authors
 
