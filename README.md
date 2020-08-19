@@ -2,6 +2,7 @@
 
  Solution to the *Bare Metal Forms* excercise from The Odin Project's [section on Forms](https://www.theodinproject.com/courses/ruby-on-rails/lessons/forms)
 
+![image](https://user-images.githubusercontent.com/2739245/90670116-55839280-e218-11ea-9910-058839a5d4b2.png)
 
 ### Prerequisites
 
